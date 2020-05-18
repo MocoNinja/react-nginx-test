@@ -1,0 +1,23 @@
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo-home {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(00deg);
+  }
+  to {
+    transform: rotate360deg);
+  }
+}
+
+.App-logo-home {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-logo-home>g {
+  fill: lightsteelblue;
+}
