@@ -7,29 +7,29 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <div>
-          <header>
-            <h2>Test React App</h2>
-          </header>
+        <header className="App-header">
+          <h2>Test React App</h2>
           <p>
             Una pequeña página para ver cómo desplegar React en Nginx (docker +
             nativo)
           </p>
-          <button type="button" className="btn btn-primary ml-4 mr-2">
-            <Link className="badge badge-primary" to={"/"}>
+          <nav>
+            <Link className="badge badge-primary ml-4 mr-2 p-3" to={"/"}>
               Home
             </Link>
-          </button>
-          <button type="button" className="btn btn-primary ml-2 mr-4">
-            <Link className="badge badge-primary" to={"/contacts"}>
+            <Link
+              className="badge badge-primary ml-2 mr-4 p-3"
+              to={"/contacts"}
+            >
               Contact
             </Link>
-          </button>
-          <Switch>
-            <Route exact path="/" component={Home} />
-            <Route path="/contacts" component={Contact} />
-          </Switch>
-        </div>
+          </nav>
+        </header>
+
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route path="/contacts" component={Contact} />
+        </Switch>
       </Router>
     </div>
   );

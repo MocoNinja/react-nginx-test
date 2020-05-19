@@ -1,3 +1,13 @@
 .App {
     padding: 3em;
 }
+
+.App-header {
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+}
+
+.App-header > p {
+    color: lightseagreen;
+}

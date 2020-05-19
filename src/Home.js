@@ -4,7 +4,7 @@ import "./Home.css";
 
 function Home() {
   return (
-    <div className="App">
+    <div className="Home">
       <LogoHome />
       <p>Hola mundo!</p>
     </div>

@@ -4,7 +4,7 @@ import "./Contact.css";
 
 function Contact() {
   return (
-    <div className="App">
+    <div className="Contact">
       <LogoContact />
       <p>Adiós mundo!</p>
     </div>

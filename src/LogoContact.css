@@ -1,10 +1,10 @@
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .App-logo-contact {
+    animation: App-logo-contact-spin infinite 20s linear;
   }
 }
 
-@keyframes App-logo-spin {
+@keyframes App-logo-contact-spin {
   from {
     transform: rotate(360deg);
   }
@@ -13,11 +13,11 @@
   }
 }
 
-.App-logo {
+.App-logo-contact {
   height: 40vmin;
   pointer-events: none;
 }
 
-.App-logo>g {
+.App-logo-contact>g {
   fill: lightcoral;
 }
